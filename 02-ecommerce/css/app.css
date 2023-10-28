@@ -99,3 +99,11 @@ h3 {
         object-fit: cover;
     }
 }
+
+.categoria img {
+    transition: transform .3s;
+}
+
+.categoria img:hover {
+    transform: scale(1.2);
+}
