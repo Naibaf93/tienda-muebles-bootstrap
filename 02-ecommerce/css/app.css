@@ -4,6 +4,7 @@
     --bs-blue: #037BC0;
     --bs-green: #8CBC00;
     --hover-green: #769c02;
+    --bs-white:#fff;
 }
 /* Globales */
 
@@ -106,4 +107,9 @@ h3 {
 
 .categoria img:hover {
     transform: scale(1.2);
+}
+.categoria a:hover {
+    background-color: var(--bs-blue);
+    color: var(--bs-white)!important;
+    border-bottom-right-radius: 1rem;
 }
