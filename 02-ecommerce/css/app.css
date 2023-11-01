@@ -54,6 +54,12 @@ h3 {
     }
 }
 
+/* nav */
+
+.nav-principal a:hover {
+    color: var(--bs-blue)!important;
+}
+
 /* Reescribir colores */
 
 .text-primary,
