@@ -56,7 +56,8 @@ h3 {
 
 /* nav */
 
-.nav-principal a:hover {
+.nav-principal a:hover,
+.footer-menu a:hover {
     color: var(--bs-blue)!important;
 }
 
