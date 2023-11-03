@@ -140,3 +140,7 @@ h3 {
     color: var(--bs-white)!important;
     border-bottom-right-radius: 1rem;
 }
+
+.galeria li:not(:last-of-type) {
+    margin-bottom: 1rem;
+}
