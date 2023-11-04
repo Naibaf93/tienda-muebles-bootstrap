@@ -15,6 +15,8 @@ const contenidoModal = document.querySelector('.modal-body');
 contenidoModal.appendChild(image);
 });
 
+// ocultando los demas hijos para que solo salga una imagen al dar click
+
 modalImage.addEventListener('hidden.bs.modal', function() {
     const contenidoModal = document.querySelector('.modal-body');
     contenidoModal.textContent = '';
